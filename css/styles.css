@@ -6,6 +6,7 @@ body {
 a {
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
 }
@@ -138,14 +139,15 @@ img {
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .header-item-menu:hover {
     color:#404bbf;
 }
 
+
 .header-item-menu:focus {
     color:#404bbf;
 }
-
 
 
 .header {
@@ -154,7 +156,6 @@ img {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
-
 
 
 .logo {
@@ -406,6 +407,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .section-paragraph{
     font-weight: 400;
     font-size: 16px;
@@ -413,8 +415,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-
 
 .section-item-portfolio {
     font-weight: 500;
@@ -424,7 +424,6 @@ img {
     color:#2e2f42;
     margin-bottom: 8px
 }
-
 
 
 .mesendger {
@@ -483,6 +482,7 @@ img {
     color: #2e2f42;
     text-transform: capitalize;
 }
+
 .section-text-portfolio {
     font-weight: 500;
     font-size: 20px;
@@ -490,6 +490,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .section-paragraph-portfolio {
     font-weight: 400;
     font-size: 16px;
@@ -592,7 +593,6 @@ img {
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .fotter-item-svg {
@@ -621,7 +621,6 @@ img {
     color: #f4f4fd;
     width: 264px;
 }
-
 
 
 .footer-social {
@@ -722,7 +721,8 @@ img {
     opacity: 0;
         visibility: visible;
         pointer-events: auto;
-    }
+}
+
 
 .modal {
     position: absolute;
@@ -894,8 +894,6 @@ img {
 .input:checked {
     border: none;
 }
-
-
 
 .form-link {
     text-decoration: underline;

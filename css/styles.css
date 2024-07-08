@@ -199,19 +199,22 @@ img {
 .section {
     background: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),url(..//images/people-ofice.jpg);
+     rgba(46, 47, 66, 0.7)),url(..//images/people-efice-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-weight: 700;
-    font-size: 56px;
+    /* font-size: 56px; */
+    font-size: 36px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding: 188px 0;
+    /* padding: 188px 0; */
+    padding: 72px 0;
     margin: 0 auto;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 320px;
 }
 
 .section-effective {
@@ -1049,6 +1052,17 @@ img {
 
     /* -OUR-TEAM- */
 
+    /* EFFECTIVE */
+
+    .section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(..//images/people-efice-mob.jpg);
+    min-width: 768px;
+    font-size: 56px;
+    }
+
+    /* -EFFECTIVE- */
+
 }
 
 @media screen and (min-width:1158px) {
@@ -1143,6 +1157,18 @@ img {
         }
 
         /* -OUR-TEAM- */
+
+        /* EFFECTIVE */
+
+        .section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(..//images/people-ofice.jpg);
+            max-width: 1440px;
+            font-size: 56px;
+            padding: 188px 0;
+        }
+
+        /* -EFFECTIVE- */
 }
 
     /* -MOBIL-FIRST- */

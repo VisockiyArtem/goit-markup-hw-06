@@ -191,7 +191,67 @@ img {
     border: none;
 }
 
+
+.mob-menu {
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    /* visibility: hidden;
+    opacity: 0; */
+    /* pointer-events: none; */
+    padding: 20px;
+    overflow: auto;
+}
+
+.mob-btn-close {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+
+.mob-item {
+    margin-bottom: 40px;
+}
+
+.mob-list {
+    
+}
+
+.mob-item {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.link-mob {}
+
+.link-studio-mob {}
+
+
+.header-address-mob {
+
+}
+
+.header-address-menu-mob {}
+
+.header-menu-contacts-mob {}
+
+.header-item-menu-mob {}
+
+
 /* -HEADER- */
+
+/* MOB_MENU */
+
+
+
+/* -MOB_MENU- */
+
 
 
 /* EFFECTIVE SOLUTIONS */
@@ -585,8 +645,8 @@ img {
 
 .container-footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    flex-direction: column;
 }
 
 .footer-logo {
@@ -1045,7 +1105,6 @@ img {
     }
 
     .section-portfolio {
-       
         gap: 72px 24px;
         width: calc((100% - 24px) / 2);
     }

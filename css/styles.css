@@ -216,33 +216,52 @@ img {
     flex-direction: column;
 }
 
+.mob-header-container {
+
+}
 
 .model-close-mob {
-   display: block;
-   margin-left: auto;
-   margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 16px;
     position: absolute;
-        top: 24px;
-        right: 24px;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        padding: 0px;
-        cursor: pointer;
-        border: 1px solid rgba(0, 0, 0, 0.10);
-        background-color: #E7E9FC;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background-color: #E7E9FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-list{
     margin-bottom: 40px;
 }
 
+.link-mobail {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.studio-mob {
+    color: #404bbf;
+}
+
+
+.mob-navigation {
+    margin-bottom: auto;
+}
 
 .navigation-link-mob {
     font-weight: 700;
@@ -253,13 +272,29 @@ img {
     margin-bottom: 40px;
 }
 
-
-
-.header-address-mob {
-    margin-bottom: auto;
+.mesendger-mob {
+    display: flex;
+    gap: 40px;
 }
 
+.header-address-mob {
+    margin-bottom: 40px;
+}
 
+.tel-mob {
+    color: #4d5ae5;
+}
+
+.mail-mob {
+    color: #434455;
+}
+
+.header-item-menu-mob-mob {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .header-menu-contacts-mob {
     font-weight: 500;
@@ -267,6 +302,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.tel-mob {
     margin-bottom: 24px;
 }
 
@@ -1220,6 +1258,8 @@ img {
     .logo {
         display: flex;
         margin-right: 76px;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
    
     .header-menu {
@@ -1230,6 +1270,7 @@ img {
     .header-address-menu {
         display: flex;
         gap: 40px;
+        
     }
 
     .header-menu-contacts {

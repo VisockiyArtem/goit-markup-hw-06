@@ -774,6 +774,11 @@ img {
     /* margin-bottom: 16px; */
 }
 
+.mobil-logo {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 .footer-paragraph {
@@ -1274,7 +1279,9 @@ img {
         width: 264px;
     }
 
-    .footer-logo {
+    .mobil-logo {
+        display: flex;
+        justify-content: start;
     }
 
     .modal-foot-paragraf {
@@ -1299,7 +1306,6 @@ img {
 
     .logo {
         display: flex;
-        margin-right: 76px;
         padding-top: 24px;
         padding-bottom: 24px;
     }
@@ -1427,6 +1433,7 @@ img {
             display: flex;
             align-items: baseline;
             padding-left: 15px;
+            gap: 0;
         }
 
         .footer-logo {
@@ -1464,6 +1471,11 @@ img {
        .footter-social-title {
         text-align: start;
        }
+
+        .mobil-logo {
+            display: flex;
+            justify-content: start;
+        }
 
         /* -FOOTER- */
 

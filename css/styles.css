@@ -1376,12 +1376,12 @@ img {
     /* PORTFOLIO */
     
     .our-portfolio {
-        margin-top: 72px;
         margin-bottom: 72px; 
     }
 
     .section-menu-ourportfolio {
         flex-wrap: wrap;
+        margin-bottom: 0;
     }
 
 
